@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: "Lato", "Helvetica Neue";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  padding-top: 20px;
+  padding-left: 30px;
+  margin: 0 auto;
+  max-width: 100%;
+  height: calc(100vh);
+  background-image: url("C:\Users\dell\Desktop\demo\resturant\public\images\background.png");
+}
+.navcontainer {
+  text-decoration: none;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+  width: 100%;
+  align-items: center;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  padding: 0 20px;
+}
+
+.nav-scrolled {
+  top: 0;
+  padding: 0 0px 0;
+  width: auto;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+.nav-scrolled .nav-links li a {
+  color: #000;
+}
+.nav-scrolled .menu-toggle span {
+  background-color: #000;
+}
+nav ul {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  color: white;
+  font-size: large;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.nav ul li {
+  position: relative;
+  cursor: pointer;
+}
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+.middle {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.middle h1 {
+  padding-top: 10%;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.middle p {
+  color: color;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1px;
+  max-width: 600px;
+  padding-top: 1px;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+    padding-right: 40px;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: -50px;
+    background-color: #f3ecec;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links.active {
+    height: auto;
+    padding: 5px 0;
+  }
+
+  .nav-links li {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    margin: 10px 0;
+  }
+
+  .nav-links.active li {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav-links li a {
+    color: black;
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .menu-toggle.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .middle {
+    padding-top: 60px;
+  }
+  .middle h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 20%;
+  }
+
+  .middle p {
+    font-size: 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .middle h1 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 30%;
+  }
+
+  .middle p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 328px) {
+  .middle h1 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 30%;
+  }
+
+  .middle p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

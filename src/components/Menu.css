@@ -1,0 +1,102 @@
+.imagecontainer{
+    min-height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+}   
+
+.menuimage{
+    background-image: url("C:\Users\dell\Desktop\demo\resturant\public\images\catering.jpeg");
+    height:60vh;
+    width:100%;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+
+}  
+
+  
+  .menuimage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+.menucontent{
+    position: relative ;
+    text-align: center;
+    color: white;
+    
+}
+
+.menucontent h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin:0;
+    color:#d4af37;
+    margin-bottom: 6px;
+}
+
+.menucontent h2{
+    font-size: 75px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.menu-section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.breakfast {
+    border-radius: 5px;
+    margin:25px;
+    padding:0 15px 0 15px;
+    border:2px solid #d4af37;
+}
+
+.lunch,
+.dinner {
+    border-radius: 5px;
+    margin:25px;
+    padding:0 25px 0 25px;
+    border:2px solid #d4af37;
+}
+
+.menu-section :hover{
+    background-color: rgb(78, 78, 71);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+}

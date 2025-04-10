@@ -1,0 +1,142 @@
+.aboutus-container{
+ 
+    min-height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-image{
+    background-image:url(C:\Users\dell\Desktop\demo\resturant\public\images\ourservices.jpg) ;
+    height:60vh;
+    width:100%;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+}
+.aboutus-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+.aboutus-content{
+    position: relative ;
+    text-align: center;
+    color: white;
+  }
+.aboutus-content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin:0;
+    color:#d4af37;
+    margin-bottom: 5px;
+}
+.aboutus-content h2{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+   
+}
+.aboutus-section{
+    width:100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:80px 0 ;
+      background-color: #f5f5f5;
+  }
+  .about-container{
+    width:80%;
+      max-width: 1200px;
+      text-align: center;
+      padding: 60px 40px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      
+  }
+  .about-container h2{
+      font-size: 44px;
+     margin:0;
+      color: rgb(255, 136, 0);
+    
+  }
+  .about-container h1{
+      font-size: 54px;
+    font-weight: bold;
+    margin: 10px 0 30px;
+    color: #000;
+      
+  }
+  .arrow-down {
+      font-size: 36px;
+      color: #d4af37;
+      margin: 20px 0;
+    }
+    .delivery-content {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .location-text {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+      margin: 15px 0;
+      padding:0 10px;
+    }
+
+    .aboutteam-section{
+        width:100%;
+          min-height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #f5f5f5;
+      }
+      .aboutteam-container{
+        width:80%;
+          max-width: 1200px;
+          text-align: center;
+          padding: 60px 40px;
+          background-color: #ffffff;
+          border-radius: 10px;
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+          
+      }
+      .aboutteam-container h2{
+          font-size: 44px;
+         margin:0;
+          color: rgb(255, 136, 0);
+        
+      }
+      .aboutteam-container h1{
+          font-size: 54px;
+        font-weight: bold;
+        margin: 10px 0 30px;
+        color: #000;
+          
+      }
+      .arrow-down {
+          font-size: 36px;
+          color: #d4af37;
+          margin: 20px 0;
+        }
+        .team-content {
+          max-width: 100%;
+          margin: 0 auto;
+        }
+        .location-text {
+          font-size: 18px;
+          line-height: 1.6;
+          color: #333;
+          margin: 15px 0;
+          padding:0 10px;
+        }    
