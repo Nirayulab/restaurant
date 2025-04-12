@@ -1,5 +1,6 @@
 import React from "react";
 import "./ReserveEvents.css";
+import { motion } from "framer-motion";
 const ReserveEvents = () => {
   return (
     <div className="reserve-container">
@@ -12,7 +13,13 @@ const ReserveEvents = () => {
         </div>
       </div>
       <div className="reserve-content">
-        <div className="reserve-form-container">
+        <motion.div  className="reserve-form-container"
+           initial={{ opacity: 0, y: -50 }}
+           whileInView={{ opacity: 1, y: 0 }}
+           transition={{  type: "spring",
+            bounce: 0.6,
+            duration: 1.2 }}
+           viewport={{ once: false, amount: 0.5 }}>
           <h1>
             RESERVE TABLE, <br />
             ORGANIZE PRIVATE EVENTS
@@ -39,7 +46,7 @@ const ReserveEvents = () => {
               <button type="submit">Send Message</button>
             </form>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
