@@ -1,17 +1,28 @@
 import './Aboutus.css';
-
+import { motion } from "framer-motion";
 const Aboutus = () => {
   return (
     <div className='aboutus-container'>
       <div className='aboutus-image'>
         <div className='aboutus-content'>
-        <h1>Discover</h1>
-        <h2>ABOUT US</h2>
+        
+        <motion.h2
+         initial={{ opacity: 0, y: -50 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.8, delay: 0.2 }}
+         viewport={{ once: false, amount: 0.5 }}>ABOUT US
+         </motion.h2>
         </div>
       </div>
 
       <div className='aboutus-section'>
-        <div className="about-container">
+        <motion.div className="about-container"
+        initial={{ opacity: 1, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{  type: "spring",
+         bounce: 0.6,
+         duration: 1.2 }}
+        viewport={{ once: false, amount: 0.5 }}>
           <h2>About</h2>
           <h1>US</h1>
           <div className="arrow-down">&#x2193;</div>
@@ -35,10 +46,18 @@ const Aboutus = () => {
                 <img src="./images/resturant1.jpg" alt="About-Us" className="about-image" />       
               </div>
             </div>
-        </div>
+        </motion.div>
       </div>
       <div className='aboutteam-section'>
-        <div className="aboutteam-container">
+        <motion.div className="aboutteam-container"
+         initial={{ opacity: 1, y: -50 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{  type: "spring",
+          bounce: 0.6,
+          duration: 1.2 }}
+         viewport={{ once: false, amount: 0.5 }}
+        
+        >
           <h2>About</h2>
           <h1>TEAM</h1>
           <div className="arrow-down">&#x2193;</div>
@@ -60,7 +79,7 @@ const Aboutus = () => {
               </p>
               
             </div>
-        </div>
+        </motion.div>
       </div>
 
      </div>
