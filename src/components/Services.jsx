@@ -1,18 +1,38 @@
 import React from 'react'
 import './Services.css';
+import { motion } from "framer-motion";
 const Services = () => {
   return (
     <div className='service-container'>
 
       <div className='service-image'>
         <div className='service-content'>
-        <h1>Check Out</h1>
-        <h2>OUR Services</h2>
+        <motion.h1
+         initial={{ opacity: 0, y: -50 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.8, delay: 0.2 }}
+         viewport={{ once: false, amount: 0.5 }}
+        >Check Out
+        </motion.h1>
+        <motion.h2
+         initial={{ opacity: 0, y: 50 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.8, delay: 0.2 }}
+         viewport={{ once: false, amount: 0.5 }}
+        >OUR Services
+        </motion.h2>
         </div>
       </div>
 
       <div className='service-section'>
-        <div className="delivery-container">
+        <motion.div className="delivery-container"
+         initial={{ opacity: 0, y: -50 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{  type: "spring",
+          bounce: 0.6,
+          duration: 1.2 }}
+         viewport={{ once: false, amount: 0.5 }}>
+        
           <h2>Food</h2>
           <h1>DELIVERY</h1>
           <div className="arrow-down">&#x2193;</div>
@@ -25,7 +45,7 @@ const Services = () => {
               </p>
               <a href="/menu" className="order-now-btn">Order Now</a>
             </div>
-        </div>
+        </motion.div>
       </div>
       <div className='catering-section'>
         <div className="catering-overlay">

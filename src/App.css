@@ -129,6 +129,7 @@ nav ul li a {
   color: white;
   display: flex;
   align-items: center;
+  
   flex-direction: column;
   gap: 5px;
 }
@@ -138,16 +139,28 @@ nav ul li a {
   font-size: 60px;
   line-height: 80px;
 }
-
+.arrow-down {
+  font-size: 2rem;      
+  text-align: center;
+  padding-top: 52px;
+  animation: bounce 1.5s infinite;
+}
 .middle p {
   color: color;
   font-weight: 600;
   font-size: 30px;
-  line-height: 1px;
+  line-height: 2px;
   max-width: 600px;
   padding-top: 1px;
 }
-
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
 @media (max-width: 768px) {
   .menu-toggle {
     display: flex;

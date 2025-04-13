@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Menu.css'
-
+import { motion } from "framer-motion";
 const Menu = () => {
   const [showBreakfast, setShowBreakfast] = useState(false);
   const [showLunch, setShowLunch] = useState(false);
@@ -10,8 +10,20 @@ const Menu = () => {
     <div className='imagecontainer'>
       <div className='menuimage'>
         <div className='menucontent'>
-            <h1>Check Out</h1>
-            <h2>OUR MENUS</h2>
+            <motion.h1
+             initial={{ opacity: 0, y: -50 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             transition={{ duration: 0.8, delay: 0.2 }}
+             viewport={{ once: false, amount: 0.5 }}
+            >Check Out
+            </motion.h1>
+            <motion.h2
+             initial={{ opacity: 0, y: 50 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             transition={{ duration: 0.8, delay: 0.4 }}
+             viewport={{ once: false, amount: 0.9 }}>
+            OUR MENUS
+            </motion.h2>
         </div>
       </div> 
 

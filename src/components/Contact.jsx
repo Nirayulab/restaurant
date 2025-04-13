@@ -1,17 +1,46 @@
 import React from "react";
 import "./Contact.css";
+import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className="contactus-container">
       <div className="contactus-image">
         <div className="contactus-content">
-          <h1>Discover</h1>
-          <h2>Contact US</h2>
+          <motion.h1
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: false, amount: 0.5 }}>
+            Discover</motion.h1>
+          <motion.h2
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: false, amount: 0.5 }}>
+            Contact US</motion.h2>
         </div>
       </div>
 
-      <div className="contact-section">
-        <div className="contact-container">
+      <motion.div 
+        className="contact-section"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ 
+          opacity: 1, 
+          y: 0,
+          transition: {
+            type: "spring",
+            bounce: 0.4,
+            duration: 1,
+            delay: 0.4
+          }
+        }}
+      >
+        <motion.div 
+          className="contact-container"
+          whileHover={{ 
+            scale: 1.02,
+            transition: { duration: 0.3 }
+          }}>
           <div className="contactus-info">
             <h4>CONTACT INFO</h4>
             <div className="contactus-item">
@@ -60,8 +89,8 @@ const Contact = () => {
 
              </div>
 
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 };
