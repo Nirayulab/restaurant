@@ -1,7 +1,7 @@
 import React from "react";
 import "./Ourstory.css";
 import { motion } from "framer-motion";
-const Ourstory = () => {
+const OurStory = () => {
   return (
     <div className="story-section">
       <motion.div 
@@ -50,4 +50,4 @@ const Ourstory = () => {
     </div>
   );
 };
-export default Ourstory;
+export default OurStory;

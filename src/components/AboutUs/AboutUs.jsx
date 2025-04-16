@@ -1,6 +1,6 @@
-import './Aboutus.css';
+import './AboutUs.css';
 import { motion } from "framer-motion";
-const Aboutus = () => {
+const AboutUs = () => {
   return (
     <div className='aboutus-container'>
       <div className='aboutus-image'>
@@ -56,7 +56,6 @@ const Aboutus = () => {
           bounce: 0.6,
           duration: 1.2 }}
          viewport={{ once: false, amount: 0.5 }}
-        
         >
           <h2>About</h2>
           <h1>TEAM</h1>
@@ -86,4 +85,4 @@ const Aboutus = () => {
   );
 };
 
-export default Aboutus;
+export default AboutUs;

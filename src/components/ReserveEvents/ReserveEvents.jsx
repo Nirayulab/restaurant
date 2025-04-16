@@ -1,6 +1,7 @@
 import React from "react";
 import "./ReserveEvents.css";
 import { motion } from "framer-motion";
+import ReserveForm from "./ReserveForm";
 const ReserveEvents = () => {
   return (
     <div className="reserve-container">
@@ -25,27 +26,7 @@ const ReserveEvents = () => {
             ORGANIZE PRIVATE EVENTS
           </h1>
 
-          <div className="reserve-form">
-            <form>
-              <div className="form-group">
-                <label>YOUR NAME</label>
-                <input type="text" placeholder="Enter your name" required />
-              </div>
-              <div className="form-group">
-                <label>YOUR EMAIL</label>
-                <input type="text" placeholder="Enter your name" required />
-              </div>
-              <div className="form-group">
-                <label>SUBJECT</label>
-                <input type="text" placeholder="Enter your name" required />
-              </div>
-              <div className="form-group">
-                <label>YOUR MESSAGE (OPTIONAL)</label>
-                <textarea name="message" rows="4"></textarea>
-              </div>
-              <button type="submit">Send Message</button>
-            </form>
-          </div>
+          <ReserveForm />
         </motion.div>
       </div>
     </div>

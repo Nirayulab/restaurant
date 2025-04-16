@@ -56,26 +56,28 @@ body {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  height: 92px;
+  height: var(--header-heigth);
   width: 100%;
   align-items: center;
   transition: all 0.3s ease;
   z-index: 1000;
-  padding: 0 20px;
+  padding: 45px 0px 0 20px;
 }
 
 .nav-scrolled {
   top: 0;
-  padding: 0 0px 0;
+  padding: 40px 0px 0;
   width: auto;
   left: 0;
   right: 0;
   background-color: #ffffff;
 }
 .nav-scrolled .nav-links li a {
+  padding:0px;
   color: #000;
 }
 .nav-scrolled .menu-toggle span {
+ 
   background-color: #000;
 }
 nav ul {
@@ -88,7 +90,7 @@ nav ul {
   color: white;
   font-size: large;
   justify-content: flex-end;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 .nav ul li {
   position: relative;
@@ -142,7 +144,7 @@ nav ul li a {
 .arrow-down {
   font-size: 2rem;      
   text-align: center;
-  padding-top: 52px;
+  padding-top: 25px;
   animation: bounce 1.5s infinite;
 }
 .middle p {
@@ -153,6 +155,7 @@ nav ul li a {
   max-width: 600px;
   padding-top: 1px;
 }
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -246,19 +249,42 @@ nav ul li a {
     font-size: 16px;
   }
 }
-@media (max-width: 328px) {
+@media (max-width: 320px) {
+  .Container{
+    max-width:150%;
+    object-fit: cover;
+  }
+  .navcontainer{
+  
+    padding:10px;
+  }
+  .navcontainer img{
+    height: 25px;
+  }
+  .menu-toggle{
+    padding-right: 80px;
+  }
+  .nav-scrolled .menu-toggle{
+    padding-left: 120px;
+  }
   .middle h1 {
+    text-align: center;
     font-size: 32px;
     line-height: 40px;
     padding-top: 30%;
   }
-
+  .arrow-down {
+    font-size: 2rem;      
+    text-align: center;
+    padding-top: 15px;
+    animation: bounce 1.5s infinite;
+  }
   .middle p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-size: 16px;
+    text-align: center;
+    font-size: 18px;
     line-height: 18px;
   }
 }
