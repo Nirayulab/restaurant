@@ -1,7 +1,7 @@
-import "..//App.css";
+import "../../App.css";
 import { motion } from "framer-motion";
 
-const Bodysection = () => {
+const BodySection = () => {
   return (
     <div className="middle">
       <motion.h1
@@ -23,4 +23,4 @@ const Bodysection = () => {
     </div>
   );
 };
-export default Bodysection;
+export default BodySection;

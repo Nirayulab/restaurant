@@ -1,13 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navigation from "./components/navigation";
-import Home from "./components/Home"; 
-import Menu from "./components/Menu";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import Footer from "./components/footer";
-import Aboutus from "./components/Aboutus";
-
+import Navigation from './components/Navigation/Navigation';
+import Home from "./components/Home/Home"; 
+import Menu from './components/Menu/Menu';
+import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import AboutUs from './components/AboutUs/AboutUs';
 const App = () => {
   return (
     <Router>
@@ -15,9 +14,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="Services" element={<Services />} />
-        <Route path="/Aboutus" element={<Aboutus />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="services" element={<Services />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />  
     </Router>

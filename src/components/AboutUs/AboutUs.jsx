@@ -56,7 +56,6 @@ const AboutUs = () => {
           bounce: 0.6,
           duration: 1.2 }}
          viewport={{ once: false, amount: 0.5 }}
-        
         >
           <h2>About</h2>
           <h1>TEAM</h1>

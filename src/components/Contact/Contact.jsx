@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { motion } from "framer-motion";
+import ReserveForm from "../ReserveEvents/ReserveForm";
 const Contact = () => {
   return (
     <div className="contactus-container">
@@ -67,26 +68,7 @@ const Contact = () => {
           <div className="form">
             <h2>GET</h2>
             <h1> IN TOUCH </h1>
-             <form>
-              <div className="form-group">
-                <label>YOUR NAME</label>
-                <input type="text" placeholder="Enter your name" required />  
-              </div>
-              <div className="form-group">
-                <label>YOUR EMAIL</label>
-                <input type="email" placeholder="Enter your email" required />  
-              </div>
-              <div className="form-group">
-                <label>SUBJECT</label>
-                <input type="text" placeholder="Enter your subject" required />  
-              </div>
-              <div className="form-group">
-                <label>YOUR MESSAGE (OPTIONAL)</label>
-                <textarea name="message" rows="4"></textarea>
-              </div>
-              <button type="submit">Send Message</button>
-              </form>
-
+             <ReserveForm/>
              </div>
 
         </motion.div>
