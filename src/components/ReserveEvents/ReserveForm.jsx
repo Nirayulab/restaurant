@@ -1,6 +1,6 @@
 import InputField from "./InputField";
 import TextArea from "./TextArea";
-
+import "./ReserveEvents.css"; 
 const ReserveForm = () => (
   <form className="reserve-form">
     <div className="form-group">

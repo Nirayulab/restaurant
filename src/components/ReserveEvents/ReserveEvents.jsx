@@ -25,7 +25,6 @@ const ReserveEvents = () => {
             RESERVE TABLE, <br />
             ORGANIZE PRIVATE EVENTS
           </h1>
-
           <ReserveForm />
         </motion.div>
       </div>

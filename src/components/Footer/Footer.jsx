@@ -4,13 +4,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
          <div className="footer-logo">
-            <img src="/images/logo.svg" alt="logo"></img>
+            <img src="/images/logo.png" alt="logo"></img>
            
            <div className="service">
-
-            <h3>Service Option</h3>
-            <p>Dine-in · Drive-through · Delivery</p>
-            <p>Saturday and Sunday: 6:00 AM to 12 AM (Midnight)</p>
+              <h3>Service Option</h3>
+              <p className="service-first-p">Dine-in · Drive-through · Delivery</p>
+              <p className="service-second-p">Saturday and Sunday: 6:00 AM to 12 AM (Midnight)</p>
             </div>
          </div>
 
@@ -20,15 +19,15 @@ const Footer = () => {
             <p>98xxxxxxxxxx</p>
           </div>
           <div className="contact-item">
-            <a href="mailto:xxx">Reservation@kathmandugrill.com</a>
+            <a href="mailto:xxx">Reservation@vyomite.com</a>
           </div>
           <div className="contact-item">
-            <a href="https://www.google.com">Kathmandugrill.com</a>
+            <a href="https://vyomite.com.np/">vyomite.com</a>
           </div>
          </div>
          <div className="footer-location">
           <h4>LOCATION</h4>
-          <p>Satghumti, Chaksibari Marg, Thamel</p>
+          <p> Thulobharyang, Kathmandu , Nepal</p>
           <p>Kathmandu 44600</p>
          </div>
         </div>

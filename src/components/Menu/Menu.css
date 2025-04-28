@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
 .imagecontainer{
+ 
     min-height: 100vh;
     width:100%;
     display: flex;
@@ -16,7 +24,7 @@
     display: flex;
     align-items: center ;
     justify-content: center ;
-
+    margin:0;
 }  
 
   
@@ -31,6 +39,7 @@
   }
 
 .menucontent{
+  justify-content: center;
     position: relative ;
     text-align: center;
     color: white;
@@ -55,6 +64,7 @@
 .menu-section{
   padding-top: 30px;
   padding-bottom: 30px;
+
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -99,4 +109,321 @@
   max-width: 90%;
   max-height: 90vh;
   object-fit: contain;
+}
+@media screen and (min-width: 1921px) {
+  body {
+    overflow-x: hidden;
+  }
+  .imagecontainer {
+    width: 103%;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .menuimage {
+    width: 110%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .menucontent h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .menucontent h2 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+  }
+
+  .menu-section {
+    margin-left: auto;
+  margin-right: auto;
+    padding: 60px 246px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .menu-section div {
+    text-align: center;
+    width: 70%;
+    margin: 18px 0;
+    padding: 18px 25px;
+    font-size: 1.4rem;
+  }
+
+  .modal img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  body {
+    overflow-x: hidden;
+  }
+  .imagecontainer {
+    
+    width: 103%;
+    margin: 0 ;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .menuimage {
+    width: 110%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .menucontent h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .menucontent h2 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+  }
+
+  .menu-section {
+    margin-left: auto;
+  margin-right: auto;
+    padding: 60px 246px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .menu-section div {
+    text-align: center;
+    width: 70%;
+    margin: 18px 0;
+    padding: 18px 25px;
+    font-size: 1.4rem;
+  }
+
+  .modal img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    overflow-x: hidden;
+  }
+  .imagecontainer {
+    margin-left:0;
+    width: 97%;
+    margin: 0 ;
+    padding: 0;
+    
+  }
+
+  .menuimage {
+    width: 110%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .menucontent h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+.menucontent{
+  padding-right: 70px;
+    padding-top: 50px;
+}
+  .menucontent h2 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+  }
+
+  .menu-section {
+    margin-left: auto;
+  margin-right: auto;
+    padding: 60px 246px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .menu-section div {
+    text-align: center;
+    width: 70%;
+    margin: 18px 0;
+    padding: 18px 25px;
+    font-size: 1.4rem;
+  }
+
+  .modal img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .imagecontainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .menuimage {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .menucontent h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .menucontent h2 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+  }
+
+  .menu-section {
+    padding: 50px 30px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-section div {
+    text-align: center;
+    width: 70%;
+    margin: 18px 0;
+    padding: 18px 25px;
+    font-size: 1.4rem;
+  }
+
+  .modal img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+  .imagecontainer {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .menuimage {
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .menucontent h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .menucontent h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .menu-section {
+    padding: 40px 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-section div {
+    text-align: center;
+    width: 80%;
+    margin: 15px 0;
+    padding: 14px 10px;
+    font-size: 1.2rem;
+  }
+
+  .modal img {
+    width: 85%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .imagecontainer {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .menuimage {
+    height: 35vh;
+    background-position: center;
+    padding: 0;
+  }
+
+  .menucontent h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+
+  .menucontent h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .menu-section {
+    padding: 60px 15px;
+    width: 90%;
+  }
+
+  .menu-section div {
+    text-align: center;
+    width: 90%;
+    margin: 12px 0;
+    padding: 12px 18px;
+    font-size: 1rem;
+  }
+
+  .modal img {
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+  }
+
 }

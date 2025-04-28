@@ -10,14 +10,14 @@ const BodySection = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: false, amount: 0.5 }}
       >
-        KATHMANDU GRILL
+        VYOMITE GRILL
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}
         viewport={{ once: false, amount: 0.9 }}>
-        Probably the best restaurant in THAMEL
+        PROBABLY THE BEST RESTAURANT IN Thulobharang
         <div className="arrow-down">&#x2193;</div>
       </motion.p>
     </div>
