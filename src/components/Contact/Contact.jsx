@@ -11,7 +11,7 @@ const Contact = () => {
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: false, amount: 0.5 }}>
+          viewport={{ once: false, amount: 0.5 }} className="our-text">
             Discover</motion.h1>
           <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <motion.div 
+      <div 
         className="contact-section"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ 
@@ -36,7 +36,7 @@ const Contact = () => {
           }
         }}
       >
-        <motion.div 
+        <div 
           className="contact-container"
           whileHover={{ 
             scale: 1.02,
@@ -45,16 +45,16 @@ const Contact = () => {
           <div className="contactus-info">
             <h4>CONTACT INFO</h4>
             <div className="contactus-item">
-              <p><span className="bold">LOCATION:</span> Satghumti, Chaksibari Marg, Thamel</p>
+              <p><span className="bold">LOCATION:</span> Thulobharyang, Kathmandu , Nepal</p>
             </div>
             <div className="contactus-item">
               <p><span className="bold">PHno: </span>98xxxxxxxxxx</p>
             </div>
             <div className="contactus-item">
-              <a href="mailto:xxx"><span className="bold">Mail: </span>Reservation@kathmandugrill.com</a>
+              <a href="mailto:xxx"><span className="bold">Mail: </span>Reservation@vyomite.com</a>
             </div>
             <div className="contactus-item">
-              <a href="https://www.google.com"><span className="bold">Website:</span> Kathmandugrill.com</a>
+              <a href="https://www.google.com"><span className="bold">Website:</span> vyomite.com</a>
             </div>
           </div>
 
@@ -66,13 +66,13 @@ const Contact = () => {
               
           </div>
           <div className="form">
-            <h2>GET</h2>
+            <h2 className="our-text">GET</h2>
             <h1> IN TOUCH </h1>
-             <ReserveForm/>
+             <span className="contactus-form"><ReserveForm/></span>
              </div>
 
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </div>
   );
 };

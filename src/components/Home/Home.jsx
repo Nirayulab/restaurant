@@ -3,6 +3,7 @@ import BodySection from '../BodySection/BodySection';
 import OurStory from '../OurStory/OurStory';
 import Gallery from "../Gallery/Gallery";   
 import ReserveEvents from '../ReserveEvents/ReserveEvents';
+
 const Home = () => {
   return (
     <>

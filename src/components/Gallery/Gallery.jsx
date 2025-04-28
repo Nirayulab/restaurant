@@ -5,7 +5,7 @@ const Gallery = () => {
     return(
     <div className='gallery-container'>
         <div className='gallery-title'>
-            <h2>OUR </h2>
+            <h2 className="our-text">OUR </h2>
             <h3>GALLERY</h3>
            
         </div>

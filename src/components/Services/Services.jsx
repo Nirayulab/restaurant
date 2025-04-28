@@ -12,14 +12,14 @@ const Services = () => {
          whileInView={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.8, delay: 0.2 }}
          viewport={{ once: false, amount: 0.5 }}
-        >Check Out
+        className="our-text">Check Out
         </motion.h1>
         <motion.h2
          initial={{ opacity: 0, y: 50 }}
          whileInView={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.8, delay: 0.2 }}
          viewport={{ once: false, amount: 0.5 }}
-        >OUR Services
+        >OUR SERVICES
         </motion.h2>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Services = () => {
           duration: 1.2 }}
          viewport={{ once: false, amount: 0.5 }}>
         
-          <h2>Food</h2>
+          <h2 className="our-text">Food</h2>
           <h1>DELIVERY</h1>
           <div className="arrow-down">&#x2193;</div>
           <div className="delivery-content">
@@ -50,7 +50,7 @@ const Services = () => {
       <div className='catering-section'>
         <div className="catering-overlay">
           <div className='catering-content'>
-              <h2>Event</h2>
+              <h2 className="our-text">Event</h2>
               <h1>CATERING</h1>
               <div className="arrow-down">&#x2193;</div>
               <p>

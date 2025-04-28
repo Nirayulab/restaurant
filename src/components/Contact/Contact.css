@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
 }
+body {
+  overflow-x: hidden;
+}
 .bold{
     font-weight: bold;
 }
@@ -69,7 +72,7 @@
 .contactus-info h4,
 .opening-info h4 {
   margin-top: 70px;
-  font-size: 30px;
+  
   margin-bottom: 30px;
 }
 .contactus-item {
@@ -161,5 +164,573 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+  @media screen and (min-width: 1921px) {
+    .contactus-container {
+      width: 121%;
+    }
+  
+    .contactus-image {
+      width: 100%;
+      height: 650px;
+    }
+  
+    .contactus-content h1 {
+      font-size: 4.8rem;
+    }
+  
+    .contactus-content h2 {
+      font-size: 5.9rem;
+    }
+  
+    .contact-section {
+      padding: 60px 0;
+      width: 100%;
+    }
+  
+    .contact-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+    
+    .contactus-info,
+    .opening-info,
+    .form {
+      font-size: 1.6rem;
+      width: 32%;
+      
+      min-width: 220px;
+      padding: 40px 0;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+  
+    .form {
+      margin-top: 20px;
+    }
+  
+    .form h1 {
+      font-size: 2.6rem;
+    }
+  
+    .form h2 {
+      font-size: 2.6rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 26px;
+      padding: 10px;
+    }
+  
+    .form-group label {
+      font-size: 24px;
+    }
+  
+    .contactus-item p,
+    .contactus-item a {
+      
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .contactus-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .contactus-form{
+    
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .form button {
+      width: 100%;
+      max-width: 300px;
+      font-size: 18px;
+      padding: 12px 20px;
+    }
+  }
+  @media screen and (min-width: 1441px) and (max-width: 1920px){
+    .contactus-container {
+      width: 108%;
+    }
+  
+    .contactus-image {
+      width: 100%;
+      height: 650px;
+    }
+  
+    .contactus-content h1 {
+      font-size: 3.8rem;
+    }
+  
+    .contactus-content h2 {
+      font-size: 3.9rem;
+    }
+  
+    .contact-section {
+      padding: 60px 0;
+      width: 100%;
+    }
+  
+    .contact-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+    
+    .contactus-info,
+    .opening-info,
+    .form {
+      font-size: 1.6rem;
+      width: 32%;
+      
+      min-width: 220px;
+      padding: 40px 0;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+  
+    .form {
+      margin-top: 20px;
+    }
+  
+    .form h1 {
+      font-size: 28px;
+    }
+  
+    .form h2 {
+      font-size: 22px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 20px;
+      padding: 10px;
+    }
+  
+    .form-group label {
+      font-size: 18px;
+    }
+  
+    .contactus-item p,
+    .contactus-item a {
+      
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    .contactus-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .contactus-form{
+    
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .form button {
+      width: 100%;
+      max-width: 300px;
+      font-size: 18px;
+      padding: 12px 20px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .contactus-container {
+      width: 106%;
+    }
+  
+    .contactus-image {
+      width: 100%;
+      height: 450px;
+    }
+  
+    .contactus-content h1 {
+      font-size: 2.8rem;
+    }
+  
+    .contactus-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .contact-section {
+      padding: 60px 0;
+      width: 100%;
+    }
+  
+    .contact-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+    
+    .contactus-info,
+    .opening-info,
+    .form {
+      font-size: 1.6rem;
+      width: 32%;
+      
+      min-width: 220px;
+      padding: 40px 0;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+   
+    
+  
+    .form {
+      margin-top: 20px;
+    }
+  
+    .form h1 {
+      font-size: 28px;
+    }
+  
+    .form h2 {
+      font-size: 22px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 20px;
+      padding: 10px;
+    }
+  
+    .form-group label {
+      font-size: 18px;
+    }
+  
+    .contactus-item p,
+    .contactus-item a {
+      
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .contactus-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .contactus-form{
+    
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .form button {
+      width: 100%;
+      max-width: 300px;
+      font-size: 18px;
+      padding: 12px 20px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contactus-container {
+      width: 100%;
+    }
+  
+    .contactus-image {
+      width: 100%;
+      height: 350px;
+    }
+  
+    .contactus-content h1 {
+      font-size: 2.8rem;
+    }
+  
+    .contactus-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .contact-section {
+      padding: 60px 0;
+      width: 100%;
+    }
+  
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      width: 100%;
+      gap: 20px;
+    }
+    
+    .contactus-info,
+    .opening-info,
+    .form {
+      font-size: 2.5rem;
+      width: 90%; 
+      max-width: 600px; 
+      padding: 30px 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); 
+      text-align: center; 
+    }
+  
+    .form {
+      margin-top: 20px;
+    }
+  
+    .form h1 {
+      font-size: 28px;
+    }
+  
+    .form h2 {
+      font-size: 22px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 20px;
+      padding: 10px;
+    }
+  
+    .form-group label {
+      font-size: 18px;
+    }
+  
+    .contactus-item p,
+    .contactus-item a {
+      
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    .contactus-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .contactus-form{
+    
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .form button {
+      width: 100%;
+      max-width: 300px;
+      font-size: 18px;
+      padding: 12px 20px;
+    }
+  }
   
 
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .contactus-container {
+      width: 100%;
+    }
+  
+    .contactus-image {
+      width: 100%;
+      height: 350px;
+    }
+  
+    .contactus-content h1 {
+      font-size: 2.8rem;
+    }
+  
+    .contactus-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .contact-section {
+      padding: 60px 0;
+      width: 100%;
+    }
+  
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      width: 100%;
+      gap: 20px;
+    }
+    
+    .contactus-info,
+    .opening-info,
+    .form {
+      font-size: 1.9rem;
+      width: 90%; 
+      max-width: 600px; 
+      padding: 30px 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); 
+      text-align: center; 
+    }
+    .form {
+      margin-top: 20px;
+    }
+  
+    .form h1 {
+      font-size: 28px;
+    }
+  
+    .form h2 {
+      font-size: 22px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 20px;
+      padding: 10px;
+    }
+  
+    .form-group label {
+      font-size: 18px;
+    }
+  
+    .contactus-item p,
+    .contactus-item a {
+      
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .contactus-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .contactus-form{
+    
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .form button {
+      width: 100%;
+      max-width: 300px;
+      font-size: 18px;
+      padding: 12px 20px;
+    }
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .contactus-container {
+      width: 139%;
+    }
+  
+    .contactus-image {
+      width: 108%;
+      height: 250px;
+    }
+  .contactus-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+    .contactus-content h1 {
+      font-size: 2rem;
+    }
+  
+    .contactus-content h2 {
+      font-size: 1.9rem;
+    }
+  
+    .contact-section {
+     
+      padding: 40px 20px;
+      width: 100%;
+    }
+  
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+      gap: 20px;
+    }
+  
+    .contactus-info,
+    .opening-info,
+    .form {
+      font-size: 2.9rem;
+      width: 100%;
+      padding: 20px;
+      border-radius: 8px;
+    }
+  
+    .form {
+      
+      margin-top: 20px;
+    }
+  
+    .form h1 {
+      font-size: 34px;
+    }
+  
+    .form h2 {
+      font-size: 30px;
+    }
+  .contactus-form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+    .form-group input,
+    .form-group textarea {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .form-group label {
+      font-size: 22px;
+    }
+  
+    .contactus-item p,
+    .contactus-item a {
+      font-size: 26px;
+      text-align: center;
+    }
+  
+    .form button {
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+    }
+  }
+  

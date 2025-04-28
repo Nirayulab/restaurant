@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .reserve-container {
   text-align: center;
   display: flex;
@@ -43,7 +46,7 @@
 }
 
 .reserve-form-container h1 {
-    color:#B31414;
+  color: #b31414;
   font-size: 42px;
   text-align: center;
   margin-bottom: 40px;
@@ -87,25 +90,278 @@ button[type="submit"] {
   font-weight: 500;
   margin-bottom: 5px;
 }
-@media (max-width: 1024px) {
+@media screen and (min-width: 1921px) {
+ 
     .reserve-container {
-      flex-direction: column;
-      padding: 40px 20px;
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      width: 100%;
+      height: 120vh;
+      padding: 80px 40px;
+      box-sizing: border-box;
     }
   
-    .reserve-content {
-      margin-bottom: 40px;
-    }
-  
-    .reserve-images {
-      padding-left: 0;
+    .reserve-image {
+      flex: 1;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   
     .image-grid {
-      grid-template-columns: 1fr;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 90%;
+      height: 90%;
+      box-sizing: border-box;
     }
   
     .image-grid img {
-      height: 250px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
     }
-  } 
+  
+    .image-grid img:hover {
+      transform: scale(1.05);
+    }
+  
+    .reserve-content {
+      flex: 1;
+      width: 10%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+  
+    .reserve-form-container {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+  
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .reserve-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+    padding: 80px 40px;
+    box-sizing: border-box;
+  }
+
+  .reserve-image {
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .image-grid img:hover {
+    transform: scale(1.05);
+  }
+
+  .reserve-content {
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+
+  .reserve-form-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    overflow-x: hidden;
+  }
+  .reserve-container {
+    margin-left: 120%;
+    display: flex;
+    align-items: stretch; 
+    width: 100%;
+    height: 120vh; 
+  }
+  
+  
+  .reserve-image,
+  .reserve-content {
+    flex: 1;
+    width: 70%;
+    height: 90%; /* make both take full parent height */
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .reserve-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+  }
+
+  
+  .reserve-form-container h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .reserve-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+   
+  }
+  .reserve-container{
+    flex-direction: column;
+  width: 90%;
+  height: 50%;
+  }
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+    height: 600px;
+    width: 100%;
+    height: auto;
+   
+    justify-content: center;
+    
+  }
+  .reserve-content {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .reserve-form-container h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+  .reserve-image {
+    padding-left: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: auto;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .reserve-content {
+    width: 100%;
+  }
+  .reserve-container{
+    padding-right: 0px;
+    padding-left: 81px;
+    flex-direction: column;
+  width: 100%;
+  height: 50%;
+  }
+  .reserve-form-container h1 {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .reserve-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .reserve-content {
+    width: 100%;
+  }
+  .reserve-container{
+    padding-left: 71px;
+    flex-direction: column;
+  width: 125%;
+  height: 50%;
+  }
+  .reserve-form-container h1 {
+    font-size: 1.9rem;
+  }
+}
