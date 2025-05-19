@@ -11,7 +11,7 @@ body {
     font-weight: bold;
 }
 .contactus-image {
-  background-image: url(C:\Users\dell\Desktop\demo\resturant\public\images\ourservices.jpg);
+  background-image: url("/public/images/ourservices.jpg");
   height: 60vh;
   width: 100%;
   position: relative;

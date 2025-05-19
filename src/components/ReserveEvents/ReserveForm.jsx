@@ -16,6 +16,10 @@ const ReserveForm = () => (
       <InputField placeholder="Enter subject" />
     </div>
     <div className="form-group">
+      <label>DATE AND TIME</label>
+      <InputField type="datetime-local" />
+    </div>
+    <div className="form-group">
       <label>YOUR MESSAGE (OPTIONAL)</label>
       <TextArea rows={4} />
     </div>

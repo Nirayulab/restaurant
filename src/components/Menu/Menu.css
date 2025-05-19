@@ -15,7 +15,7 @@ body {
 }   
 
 .menuimage{
-    background-image: url("C:\Users\dell\Desktop\demo\resturant\public\images\catering.jpeg");
+    background-image: url("/public/images/catering.jpeg");
     height:60vh;
     width:100%;
     position: relative;

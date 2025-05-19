@@ -37,7 +37,7 @@ const Navigation = () => {
     <nav className={`navcontainer ${isScrolled ? "nav-scrolled" : ""}`}>
       <div className="logo">
       <Link to="/" onClick={scrollToTop}>
-          <img src="/images/logo.png" alt="Logo" />
+          <img src="/images/finallogo.png" alt="Logo" />
         </Link>
       </div>
       <div className={`menu-toggle ${isMenuOpen ? "active" : ""}`} onClick={toggleMenu}>

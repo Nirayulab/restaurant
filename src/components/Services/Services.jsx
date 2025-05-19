@@ -38,7 +38,7 @@ const Services = () => {
           <div className="arrow-down">&#x2193;</div>
           <div className="delivery-content">
               <p className="location-text">
-                We're located in The Thamel and are delighted to take your Food Delivery order around in Thamel.
+                We're located in The Thulobharang and are delighted to take your Food Delivery order around in Thulobharang.
               </p>
               <p className="order-info">
                 Take time to browse our menu and place the order when ready. It takes us about a minute to confirm your order and give an individual time.
