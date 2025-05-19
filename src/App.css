@@ -49,7 +49,7 @@ body {
   margin: 0 auto;
   
   height: 100vh;
-  background-image: url("C:\Users\dell\Desktop\demo\resturant\public\images\background.png");
+  background-image: url("../public/images/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -238,7 +238,12 @@ border: none;
     padding: 20px 10px 5px 20px;
     box-sizing: border-box;
   }
- 
+  .our-text{
+    font-style: italic;
+    font-family: 'Kristi',cursive;
+    font-size: 2.8rem;
+    color: #D4A373; 
+    margin-bottom: -10px; }
   .nav-links {
     gap: 40px;
   }
@@ -295,7 +300,12 @@ border: none;
     font-size: 4.1rem;
     padding-bottom: 30px;
   }
-
+  .our-text{
+    font-style: italic;
+    font-family: 'Kristi',cursive;
+    font-size: 2.8rem;
+    color: #D4A373; 
+    margin-bottom: -10px; }
   .middle p {
     font-size: 1.6rem;
     padding-top: 20px;
@@ -341,7 +351,12 @@ border: none;
     margin: 0px;
     padding: 0;
   }
-
+  .our-text{
+    font-style: italic;
+    font-family: 'Kristi',cursive;
+    font-size: 2.8rem;
+    color: #D4A373; 
+    margin-bottom: -10px; }
   .nav-links li a {
     color: white;
     font-size: 20px;
@@ -409,7 +424,13 @@ border: none;
     font-size: 2rem;
   }
  
-  
+  .our-text{
+    font-style: italic;
+    font-family: 'Kristi',cursive;
+    font-size: 2.8rem;
+    color: #D4A373; 
+    margin-bottom: -10px; 
+  }
   .navcontainer img {
     height: 25px;
   }
@@ -456,6 +477,12 @@ border: none;
     gap: 15px;
     box-sizing: border-box;
   }
+  .our-text{
+    font-style: italic;
+    font-family: 'Kristi',cursive;
+    font-size: 2.8rem;
+    color: #D4A373; 
+    margin-bottom: -10px; }
   .navcontainer .nav-scrolled {
     width: 100%;
   }
@@ -474,7 +501,12 @@ border: none;
   .Container {
     width: 155%;
   }
-
+  .our-text{
+    font-style: italic;
+    font-family: 'Kristi',cursive;
+    font-size: 2.8rem;
+    color: #D4A373; 
+    margin-bottom: -10px; }
   .navcontainer img {
     text-decoration: none;
     height: 25px;

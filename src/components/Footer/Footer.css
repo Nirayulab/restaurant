@@ -10,6 +10,21 @@ padding: 50px 120px;
     gap:40px;
     margin-bottom: 40px;
 }
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-item svg {
+  color: #555;
+}
 
 
 .footer-logo img{
@@ -88,7 +103,7 @@ padding: 50px 120px;
     overflow-x: hidden;
   }
     .footer {
-      width:105%;
+      width:100%;
       padding: 60px 24px;
     }
   
@@ -99,7 +114,7 @@ padding: 50px 120px;
   
     .footer-logo img {
     
-      width: 300px;
+      width: 160px;
     }
   
     .service h3{
@@ -135,7 +150,8 @@ padding: 50px 120px;
     }
   
     .footer-logo img {
-      width: 180px;
+      width: 100px;
+      height: auto;
     }
   
     .service h3,
@@ -163,7 +179,8 @@ padding: 50px 120px;
     }
   
     .footer-logo img {
-      width: 160px;
+     width: 100px;
+      height: auto;
       margin-bottom: 20px;
     }
   
@@ -197,7 +214,7 @@ padding: 50px 120px;
       }
     
       .footer-logo img {
-        width: 180px;
+        width: 100px;
         margin: 0 auto 20px;
       }
     

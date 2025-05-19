@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./ReserveEvents.css";
 import { motion } from "framer-motion";
 import ReserveForm from "./ReserveForm";

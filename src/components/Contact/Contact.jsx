@@ -48,13 +48,13 @@ const Contact = () => {
               <p><span className="bold">LOCATION:</span> Thulobharyang, Kathmandu , Nepal</p>
             </div>
             <div className="contactus-item">
-              <p><span className="bold">PHno: </span>98xxxxxxxxxx</p>
+              <p><span className="bold">PHno: </span>9813453246</p>
             </div>
             <div className="contactus-item">
-              <a href="mailto:xxx"><span className="bold">Mail: </span>Reservation@vyomite.com</a>
+              <a href="mailto:xxx"><span className="bold">Mail: </span>Reservation@kafemandu.com</a>
             </div>
             <div className="contactus-item">
-              <a href="https://www.google.com"><span className="bold">Website:</span> vyomite.com</a>
+              <a href="https://www.google.com"><span className="bold">Website:</span> kafemandu.com</a>
             </div>
           </div>
 
@@ -72,6 +72,7 @@ const Contact = () => {
              </div>
 
         </div>
+        
       </div>
     </div>
   );
